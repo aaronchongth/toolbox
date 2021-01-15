@@ -8,4 +8,3 @@ RUN sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org
 RUN apt update
 RUN apt install ros-crystal-ros-base -y
 RUN apt install python3-argcomplete -y
-

@@ -21,7 +21,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./docker_images/bionic_crystal_melodic/Dockerfile
+          file: ./docker_images/bionic_crystal_melodic_base/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: name/bionic-crystal-melodic-base:latest
+          tags: aaronchongth/ros:bionic-crystal-melodic-base
