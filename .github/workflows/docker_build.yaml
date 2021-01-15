@@ -1,7 +1,7 @@
 name: docker_build
 on:
   push:
-    branches: master
+    branches: main
 jobs:
   bionic-crystal-melodic-base:
     runs-on: ubuntu-latest
